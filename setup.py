@@ -24,7 +24,7 @@ setup(
     extras_require={
         "dev": ["pytest", "black", "bump2version", "jupyterlab", "pre-commit", "pdoc3"],
         "aws": ["s3fs==0.4"],
-        "gcp": ["gcsfs==0.8"],
+        "gcp": ["gcsfs==2024.5.0"],
         "azure": ["adlfs>=0.6"],
         "cloud": ["s3fs==0.4"],
     },
